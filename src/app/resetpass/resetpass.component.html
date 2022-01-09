@@ -1,0 +1,12 @@
+<div style="background-image: url('../../../assets/images/bglogin.jpg'); height: 100vh;" >
+    <div class="contentlog">
+            <form action="">
+                <p>New Password</p>
+                <input type="password" placeholder="Enter Your New Password" name="newpass" [(ngModel)] ="userChangepass.password">
+                <p>Repeat Password</p>
+                <input type="password" placeholder="Enter User Name" name="username" [(ngModel)]="repass" (ngModelChange)="validatepass($event)" >
+                    <button class="submit" (click)="changepass();" >Change Password</button>
+                <p style="text-align: center;">{{msg}}</p>
+            </form>
+    </div>
+</div>

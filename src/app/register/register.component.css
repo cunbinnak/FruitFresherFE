@@ -1,0 +1,67 @@
+.contentlog{
+    height: 620px;
+    width: 420px;
+    background: rgb(138, 139, 141);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    opacity: 0.7;
+    padding:70px 30px;
+}
+
+.contentlog p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2rem;
+}
+.contentlog input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contentlog input[type="text"],input[type="password"]{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+} 
+
+.contentlog .submit{
+    border:none;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    background-color:gray;
+    border-radius: 30px;
+    /* text-align: center;
+    padding-top: 10px; */
+}
+
+
+
+
+.contentlog .submit:hover{
+    cursor: pointer;
+    background-color: #d30707;
+    color: #fff;
+}
+.linkauthen{
+    width: 100%;
+    text-align: center;
+}
+.linkauthen a{
+    color: #fff;
+    font-size: 16px;
+
+}
+.linkauthen a:hover{
+    color: black;
+}
